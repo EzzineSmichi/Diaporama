@@ -1,0 +1,46 @@
+div.diaporama {
+    text-align:center;
+}
+img#diapo {
+    padding : 5px;
+    width : 50%;
+    transition : opacity 0.5s;
+}
+
+
+
+#buttons{
+    text-align : center;
+}
+
+button {
+	margin:10px;
+	background-color : #444444;
+	color: white;
+	font-weight:bold;
+	padding:5px;
+}
+button:hover {
+	background-color:#888888;
+}
+
+#diapoStep, #idxImage {
+	width : 40px;
+	text-align : right;
+}
+
+
+#inputs{
+	text-align: center;
+}
+input{
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #89a6df;
+	border-radius: 15px;
+	background-color: #eee;
+	color: rgb(70, 161, 90);
+	font-weight: 700;
+	font-size: 1rem;
+	text-align: center;
+}
